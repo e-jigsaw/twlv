@@ -2,6 +2,8 @@
 
 A library to overcomplicate `12`. Inspired by https://github.com/jackdcrawford/five .
 
+[![wercker status](https://app.wercker.com/status/d051761cc86240a4a1991ac5e24a50de/s "wercker status")](https://app.wercker.com/project/bykey/d051761cc86240a4a1991ac5e24a50de)
+
 ## Usage
 
 ### Require the module
