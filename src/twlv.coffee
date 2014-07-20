@@ -37,7 +37,7 @@ twelve.hexagram = -> '天地否' # http://en.wikipedia.org/wiki/List_of_hexagram
 twelve.quran = {}
 twelve.quran.sura = -> 'يوسف' # http://en.wikipedia.org/wiki/Yusuf_(sura)
 
-twelve.zodiac = ->           ['Aries', 'Taurus', 'Gemini',  'Cancer', 'Leo', 'Virgo',   'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']  # http://en.wikipedia.org/wiki/Zodiac
+twelve.zodiac = ->           ['Aries', 'Taurus', 'Gemini',  'Cancer', 'Leo', 'Virgo',   'Libra',  'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']  # http://en.wikipedia.org/wiki/Zodiac
 twelve.astrologicalSign = -> ['Mars',  'Venus',  'Mercury', 'Moon',   'Sun', 'Mercury', 'Pluto',   'Jupiter',     'Saturn',    'Uranus',   'Neptune'] # http://en.wikipedia.org/wiki/Astrological_sign
 twelve.earthlyBranches = ->  ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'] # http://en.wikipedia.org/wiki/Earthly_Branches
 twelve.chromaticScale = ->   ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B'] # http://en.wikipedia.org/wiki/Chromatic_scale

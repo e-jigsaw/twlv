@@ -31,7 +31,7 @@ describe 'twlv', ->
   it '12th hexagram is 天地否', -> expect(twelve.hexagram()).to.equal '天地否'
   it '12th quran sura is يوسف', -> expect(twelve.quran.sura()).to.equal 'يوسف'
 
-  it 'zodiac', -> expect(twelve.zodiac()).to.deep.equal ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']
+  it 'zodiac', -> expect(twelve.zodiac()).to.deep.equal ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']
   it 'astrological sign', -> expect(twelve.astrologicalSign()).to.deep.equal ['Mars', 'Venus', 'Mercury', 'Moon', 'Sun', 'Mercury', 'Pluto', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
   it 'earthly branches', -> expect(twelve.earthlyBranches()).to.deep.equal ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥']
   it 'chromatic scale', -> expect(twelve.chromaticScale()).to.deep.equal ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B']
@@ -41,3 +41,6 @@ describe 'twlv', ->
   it 'apostles', -> expect(twelve.apostles()).to.deep.equal ['Andrew', 'Bartholomew', 'James of Alphaeus', 'James of Zebedee', 'John', 'Judas Iscariot', 'Jude Thaddeus', 'Matthew', 'Matthias', 'Philip', 'Simon Oeter', 'Simon the Zealot', 'Thomas']
   it 'heavenly generals', -> expect(twelve.heavenlyGenerals()).to.deep.equal ['金毘羅', '伐折羅', '迷企羅', '安底羅', '頞儞羅', '珊底羅', '因達羅', '波夷羅', '摩虎羅', '真達羅', '招杜羅', '毘羯羅']
   it 'olympians', -> expect(twelve.olympians()).to.deep.equal ['Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares', 'Aphrodite', 'Hephaestus', 'Hermes', 'Hestia', 'Dionysus']
+
+  it 'check length', ->
+    expect(twelve.zodiac().length).to.equal 12
