@@ -7,6 +7,13 @@
     "start": "./node_modules/coffee-script/bin/cake build",
     "test": "./node_modules/mocha/bin/mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-jigsaw/twlv"
+  },
+  "keywords": {
+    "twelve"
+  },
   "author": "jigsaw (http://jgs.me)",
   "license": "MIT",
   "devDependencies": {
