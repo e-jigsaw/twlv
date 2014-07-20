@@ -38,9 +38,9 @@ describe 'twlv', ->
   it '十二天', -> expect(twelve['天']()).to.deep.equal ['帝釈天', '火天', '焔魔天', '羅刹天', '水天', '風天', '毘沙門天', '伊舎那天', '梵天', '地天', '日天', '月天']
   it '十二直', -> expect(twelve['直']()).to.deep.equal ['建', '除', '満', '平', '定', '執', '破', '危', '成', '納', '開', '閉']
   it 'nidanas', -> expect(twelve.nidanas()).to.deep.equal ['無明', '行', '識', '名色', '六処', '触', '受', '愛', '取', '有', '生', '老死']
-  it 'apostles', -> expect(twelve.apostles()).to.deep.equal ['Andrew', 'Bartholomew', 'James of Alphaeus', 'James of Zebedee', 'John', 'Judas Iscariot', 'Jude Thaddeus', 'Matthew', 'Matthias', 'Philip', 'Simon Oeter', 'Simon the Zealot', 'Thomas']
+  it 'apostles', -> expect(twelve.apostles()).to.deep.equal ['Andrew', 'Bartholomew', 'James of Alphaeus', 'James of Zebedee', 'John', 'Judas Iscariot', 'Matthew', 'Matthias', 'Philip', 'Simon Oeter', 'Simon the Zealot', 'Thomas']
   it 'heavenly generals', -> expect(twelve.heavenlyGenerals()).to.deep.equal ['金毘羅', '伐折羅', '迷企羅', '安底羅', '頞儞羅', '珊底羅', '因達羅', '波夷羅', '摩虎羅', '真達羅', '招杜羅', '毘羯羅']
-  it 'olympians', -> expect(twelve.olympians()).to.deep.equal ['Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares', 'Aphrodite', 'Hephaestus', 'Hermes', 'Hestia', 'Dionysus']
+  it 'olympians', -> expect(twelve.olympians()).to.deep.equal ['Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares', 'Aphrodite', 'Hephaestus', 'Hermes', 'Hestia']
 
   it 'check length', ->
     expect(twelve.zodiac().length).to.equal 12
@@ -49,3 +49,7 @@ describe 'twlv', ->
     expect(twelve.chromaticScale().length).to.equal 12
     expect(twelve['天']().length).to.equal 12
     expect(twelve['直']().length).to.equal 12
+    expect(twelve.nidanas().length).to.equal 12
+    expect(twelve.apostles().length).to.equal 12
+    expect(twelve.heavenlyGenerals().length).to.equal 12
+    expect(twelve.olympians().length).to.equal 12

@@ -44,9 +44,9 @@ twelve.chromaticScale = ->   ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', '
 twelve['天'] = -> ['帝釈天', '火天', '焔魔天', '羅刹天', '水天', '風天', '毘沙門天', '伊舎那天', '梵天', '地天', '日天', '月天'] # http://ja.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E5%A4%A9
 twelve['直'] = -> ['建', '除', '満', '平', '定', '執', '破', '危', '成', '納', '開', '閉'] # http://ja.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E7%9B%B4
 twelve.nidanas = -> ['無明', '行', '識', '名色', '六処', '触', '受', '愛', '取', '有', '生', '老死'] # http://en.wikipedia.org/wiki/Twelve_Nid%C4%81nas
-twelve.apostles = -> ['Andrew', 'Bartholomew', 'James of Alphaeus', 'James of Zebedee', 'John', 'Judas Iscariot', 'Jude Thaddeus', 'Matthew', 'Matthias', 'Philip', 'Simon Oeter', 'Simon the Zealot', 'Thomas'] # http://en.wikipedia.org/wiki/Twelve_Apostles#The_twelve_apostles
+twelve.apostles = -> ['Andrew', 'Bartholomew', 'James of Alphaeus', 'James of Zebedee', 'John', 'Judas Iscariot', 'Matthew', 'Matthias', 'Philip', 'Simon Oeter', 'Simon the Zealot', 'Thomas'] # http://en.wikipedia.org/wiki/Twelve_Apostles#The_twelve_apostles
 twelve.heavenlyGenerals = -> ['金毘羅', '伐折羅', '迷企羅', '安底羅', '頞儞羅', '珊底羅', '因達羅', '波夷羅', '摩虎羅', '真達羅', '招杜羅', '毘羯羅'] # http://en.wikipedia.org/wiki/Twelve_Heavenly_Generals
-twelve.olympians = -> ['Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares', 'Aphrodite', 'Hephaestus', 'Hermes', 'Hestia', 'Dionysus'] # http://en.wikipedia.org/wiki/Twelve_Olympians
+twelve.olympians = -> ['Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares', 'Aphrodite', 'Hephaestus', 'Hermes', 'Hestia'] # http://en.wikipedia.org/wiki/Twelve_Olympians
 
 if typeof module isnt undefined and module.exports
   module.exports = twelve
