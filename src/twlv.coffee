@@ -25,6 +25,9 @@ twelve.octal = -> twelve().toString 8
 twelve.duodecimal = -> twelve().toString 12
 twelve.hex = -> twelve().toString 16
 
+twelve.summation = -> [1..twelve()].reduce (x, y)-> x += y
+twelve.factorial = -> [1..twelve()].reduce (x, y)-> x *= y
+
 if typeof module isnt undefined and module.exports
   module.exports = twelve
 else if window?

@@ -19,3 +19,6 @@ describe 'twlv', ->
   it 'octal is 14', -> expect(twelve.octal()).to.equal '14'
   it 'duodecimal is 10', -> expect(twelve.duodecimal()).to.equal '10'
   it 'hex is c', -> expect(twelve.hex()).to.equal 'c'
+
+  it 'summation is 78', -> expect(twelve.summation()).to.equal 78
+  it 'factorial is 479001600', -> expect(twelve.factorial()).to.equal 479001600
