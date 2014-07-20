@@ -101,9 +101,9 @@ twelve.chromaticScale()   # ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A
 twelve['十二天']()         # ['帝釈天', '火天', '焔魔天', '羅刹天', '水天', '風天', '毘沙門天', '伊舎那天', '梵天', '地天', '日天', '月天']
 twelve['十二直']()         # ['建', '除', '満', '平', '定', '執', '破', '危', '成', '納', '開', '閉']
 twelve.nidanas()          # ['無明', '行', '識', '名色', '六処', '触', '受', '愛', '取', '有', '生', '老死']
-twelve.apostles()         # ['Andrew', 'Bartholomew', 'James of Alphaeus', 'James of Zebedee', 'John', 'Judas Iscariot', 'Jude Thaddeus', 'Matthew', 'Matthias', 'Philip', 'Simon Oeter', 'Simon the Zealot', 'Thomas']
+twelve.apostles()         # ['Andrew', 'Bartholomew', 'James of Alphaeus', 'James of Zebedee', 'John', 'Judas Iscariot', 'Matthew', 'Matthias', 'Philip', 'Simon Oeter', 'Simon the Zealot', 'Thomas']
 twelve.heavenlyGenerals() # ['金毘羅', '伐折羅', '迷企羅', '安底羅', '頞儞羅', '珊底羅', '因達羅', '波夷羅', '摩虎羅', '真達羅', '招杜羅', '毘羯羅']
-twelve.olympians()        # ['Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares', 'Aphrodite', 'Hephaestus', 'Hermes', 'Hestia', 'Dionysus']
+twelve.olympians()        # ['Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares', 'Aphrodite', 'Hephaestus', 'Hermes', 'Hestia']
 ```
 
 ## Development
