@@ -28,6 +28,15 @@ twelve.hex = -> twelve().toString 16
 twelve.summation = -> [1..twelve()].reduce (x, y)-> x += y
 twelve.factorial = -> [1..twelve()].reduce (x, y)-> x *= y
 
+twelve.month = -> "#{12 / 12} year"
+twelve.element = -> 'Mg' # http://en.wikipedia.org/wiki/Magnesium
+twelve.asteroid = -> 'Victoria' # http://en.wikipedia.org/wiki/12_Victoria
+twelve.tarot = -> 'The Hanged Man' # http://en.wikipedia.org/wiki/The_Hanged_Man_(Tarot_card)
+twelve.tarot.user = -> 'J Guile' # http://dic.nicovideo.jp/a/j%E3%83%BB%E3%82%AC%E3%82%A4%E3%83%AB
+twelve.hexagram = -> '天地否' # http://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching
+twelve.quran = {}
+twelve.quran.sura = -> 'يوسف' # http://en.wikipedia.org/wiki/Yusuf_(sura)
+
 if typeof module isnt undefined and module.exports
   module.exports = twelve
 else if window?

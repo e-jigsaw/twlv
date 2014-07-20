@@ -22,3 +22,11 @@ describe 'twlv', ->
 
   it 'summation is 78', -> expect(twelve.summation()).to.equal 78
   it 'factorial is 479001600', -> expect(twelve.factorial()).to.equal 479001600
+
+  it 'month is 1 year', -> expect(twelve.month()).to.equal '1 year'
+  it '12th element is Mg', -> expect(twelve.element()).to.equal 'Mg'
+  it '12th asteroid is Victoria', -> expect(twelve.asteroid()).to.equal 'Victoria'
+  it '12th tarot card is The Hanged Man', -> expect(twelve.tarot()).to.equal 'The Hanged Man'
+  it 'stand who have 12th tarot name user is J Guile', -> expect(twelve.tarot.user()).to.equal 'J Guile'
+  it '12th hexagram is 天地否', -> expect(twelve.hexagram()).to.equal '天地否'
+  it '12th quran sura is يوسف', -> expect(twelve.quran.sura()).to.equal 'يوسف'
