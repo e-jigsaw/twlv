@@ -1,6 +1,6 @@
 {
   "name": "twlv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "twelve",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,10 @@
   },
   "keywords": {
     "twelve"
+  },
+  "homepage": "http://github.com/e-jigsaw/twlv",
+  "bugs": {
+    "url": "http://github.com/e-jigsaw/twlv/issues"
   },
   "author": "jigsaw (http://jgs.me)",
   "license": "MIT",
