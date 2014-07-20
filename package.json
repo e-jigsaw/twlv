@@ -11,9 +11,9 @@
     "type": "git",
     "url": "https://github.com/e-jigsaw/twlv"
   },
-  "keywords": {
+  "keywords": [
     "twelve"
-  },
+  ],
   "homepage": "http://github.com/e-jigsaw/twlv",
   "bugs": {
     "url": "http://github.com/e-jigsaw/twlv/issues"
