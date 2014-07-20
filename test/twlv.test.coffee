@@ -32,7 +32,7 @@ describe 'twlv', ->
   it '12th quran sura is يوسف', -> expect(twelve.quran.sura()).to.equal 'يوسف'
 
   it 'zodiac', -> expect(twelve.zodiac()).to.deep.equal ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']
-  it 'astrological sign', -> expect(twelve.astrologicalSign()).to.deep.equal ['Mars', 'Venus', 'Mercury', 'Moon', 'Sun', 'Mercury', 'Pluto', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+  it 'astrological sign', -> expect(twelve.astrologicalSign()).to.deep.equal ['Mars', 'Venus', 'Mercury', 'Moon', 'Sun', 'Mercury', 'Venus', 'Pluto', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
   it 'earthly branches', -> expect(twelve.earthlyBranches()).to.deep.equal ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥']
   it 'chromatic scale', -> expect(twelve.chromaticScale()).to.deep.equal ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B']
   it '十二天', -> expect(twelve['十二天']()).to.deep.equal ['帝釈天', '火天', '焔魔天', '羅刹天', '水天', '風天', '毘沙門天', '伊舎那天', '梵天', '地天', '日天', '月天']
@@ -44,3 +44,4 @@ describe 'twlv', ->
 
   it 'check length', ->
     expect(twelve.zodiac().length).to.equal 12
+    expect(twelve.astrologicalSign().length).to.equal 12
