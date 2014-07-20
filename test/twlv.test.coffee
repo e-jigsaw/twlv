@@ -45,3 +45,5 @@ describe 'twlv', ->
   it 'check length', ->
     expect(twelve.zodiac().length).to.equal 12
     expect(twelve.astrologicalSign().length).to.equal 12
+    expect(twelve.earthlyBranches().length).to.equal 12
+    expect(twelve.chromaticScale().length).to.equal 12
